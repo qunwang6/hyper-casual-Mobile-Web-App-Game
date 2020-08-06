@@ -14,6 +14,10 @@ html, body {
 
 #word {
 	color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 5vh;
 }
 
 #obj {
@@ -28,8 +32,8 @@ html, body {
 
 #barrier-left {
 	background-color: yellow;
-	width: 42vw;
 	height: 15vw;
+	width: 1px;
 	position: absolute;
 	top: 0vh;
 	left: 0;
@@ -37,8 +41,8 @@ html, body {
 
 #barrier-right {
 	background-color: yellow;
-	width: 42vw;
 	height: 15vw;
+	width: 1px;
 	position: absolute;
 	top: 0vh;
 	right: 0;
