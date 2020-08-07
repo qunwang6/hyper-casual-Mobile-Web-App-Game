@@ -5,6 +5,13 @@ html, body {
 	overflow-x: hidden;
 }
 
+#score {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+}
+
 #main-content {
 	position: absolute;
 	background-color: #2d2e88;
