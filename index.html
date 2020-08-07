@@ -6,10 +6,32 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div id="lostPage">
+		<p id="lost-txt">YOU LOST</p>
+		<p id="lost-score">SCORE : 10</p>
+		<div id="retry" onclick="window.location.reload();">
+			<p class="btn-txt">HOME</p>
+		</div>
+	</div>
 	<div id="main-content">
-		<div id="barrier-left"></div>
-		<div id="barrier-right"></div>
+		<p id="top">A simple Hyper Casual Game</p>
+		<div id="btn-container">
+			<div class="btn" onclick="tutorial()">
+				<p class="btn-txt">TUTORIAL</p> 
+			</div>
+			<div class="btn" onclick="startGame()">
+				<p class="btn-txt">START GAME</p>
+			</div>
+		</div>
+		<p id="developer">Developed by Roshen Maghhan</p>
 
+		<p id="tut-txt"></p>
+		<div id="startFrmTutorial" onclick="startGame()">
+			<p class="btn-txt">START GAME</p>
+		</div>
+
+		<div id="barrier-left" class="barrier" style="left: 0;"></div>
+		<div id="barrier-right" class="barrier" style="right: 0;"></div>
 		<div id="obj"></div>
 		<p id="score">0</p>
 	</div>
