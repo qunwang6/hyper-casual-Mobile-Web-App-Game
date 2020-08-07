@@ -1,14 +1,4 @@
-/*
-    TODO : 
-    1. Add more barriers - NOT NEEDED -
-    2. Increase the speed of barriers - DONE -
-    3. Show tutorial of how to do it - DONE -
-    4. Change game UI - DONE -
-    5. Add scores - DONE -
-    6. Start game earlier - NOT NEEDED -
-    7. Losing page - DONE -
-    8. Check if not phone
-*/
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
 
 var possiblePos = [2.5, 22.5, 42.5, 62.5, 82.5];
 var barrierPos = 0;
@@ -21,6 +11,21 @@ var pos = 42.5;
 var transSpeed = 100;
 
 var score = 0;
+
+var screen = setInterval(rotate, 10);
+
+if(!isMobile) {
+    $("#device").css("display", "flex");
+}
+
+function rotate() {  
+  if(window.innerWidth > window.innerHeight && isMobile){
+    $("#device").css("display", "flex");
+    $("#device-txt").text("Rotate your screen to potrait mode");
+  } else if (window.innerWidth < window.innerHeight && isMobile) {
+    $("#device").css("display", "none");
+  } 
+}
 
 function lost() {
     if(score > 0) {
