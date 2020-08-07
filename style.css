@@ -10,11 +10,13 @@ html, body {
 	left: 50%;
 	transform: translateX(-50%);
 	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
 }
 
 #main-content {
 	position: absolute;
-	background-color: #2d2e88;
+	background-color: #FF9671;
 	height: 100vh;
 	width: 100vw;
 }
@@ -28,29 +30,37 @@ html, body {
 }
 
 #obj {
-	background-color: #e5e5e5;
+	background-color: #F9F871;
 	position: absolute;
 	height: 15vw;
 	width: 15vw;
 	left: 42.5vw;
 	bottom: 20vh;
-	/*transform: translateX(-50%);*/
+	border-radius : 100%;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
 }
 
 #barrier-left {
-	background-color: yellow;
+	background-color: #FFC75F;
 	height: 15vw;
 	width: 1px;
 	position: absolute;
 	top: 0vh;
 	left: 0;
+	   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
+   border-radius: 7.5vw;
 }
 
 #barrier-right {
-	background-color: yellow;
+	background-color: #FFC75F;
 	height: 15vw;
 	width: 1px;
 	position: absolute;
 	top: 0vh;
 	right: 0;
+	   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
+   border-radius: 7.5vw;
 }

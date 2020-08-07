@@ -42,7 +42,7 @@ function generateBarriers() {
                 var barBottom = (Math.floor($("#obj").position().top/100)*100) - 100;
                 if(barTop == (barBottom - 100)) {
                     if(!(pos > leftBarrier && pos < (leftBarrier + 1 + 15 + 1))) {
-                        document.getElementById("word").innerHTML = "You Lost";
+                        // document.getElementById("word").innerHTML = "You Lost";
                         $("#barrier-left").hide();
                         $("#barrier-right").hide();
                         clearTimeout(refresh);
@@ -57,37 +57,6 @@ function generateBarriers() {
         generateBarriers();
     }, barriersSpeed + 1500);
 }
-
-
-// function generateBarriers() {
-//     score++;
-//     document.getElementById('barrier-left').style.top = "-10vh";
-//     document.getElementById('barrier-right').style.top = "-10vh";
-//     barrierPos = possiblePos[Math.floor(Math.random() * 5)];
-//     leftBarrier = Math.floor(barrierPos - 1);
-//     rightBarrier = (98 - Math.floor(barrierPos) - 15);
-//     document.getElementById('barrier-left').style.width = leftBarrier + "vw"; 
-//     document.getElementById('barrier-right').style.width = rightBarrier + "vw";
-//     $("#barrier-left, #barrier-right").animate({top : "110vh"},{
-//         duration: barriersSpeed,
-//         step: function(now, fx) {
-//             var curPos = $('#barrier-left').position();
-//             var barTop = (Math.floor(curPos.top/100)*100) - 100; 
-//             var barBottom = (Math.floor($("#obj").position().top/100)*100) - 100;
-//             if(barTop == (barBottom - 100)) {
-//                 if(!(pos > leftBarrier && pos < (leftBarrier + 1 + 15 + 1))) {
-//                     document.getElementById("word").innerHTML = "You Lost";
-//                     $("#barrier-left").hide();
-//                     $("#barrier-right").hide();
-//                     clearInterval(refresh);
-//                 } else {
-//                     document.getElementById("score").innerHTML = score;
-//                 }  
-//             } 
-//         }        
-//     });
-//     setTimeout(generateBarriers, barriersSpeed + 2000);
-// }
 
 var target = document.getElementById("main-content");
 
