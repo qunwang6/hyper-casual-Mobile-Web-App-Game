@@ -96,8 +96,11 @@ html, body {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	vertical-align: middle;
-	line-height: 9vh;
+	position: relative;
+	top: 35%;
+	transform: translateY(-65%);
+/*	vertical-align: middle;
+	line-height: 9vh;*/
 	font-weight: bolder;
 }
 

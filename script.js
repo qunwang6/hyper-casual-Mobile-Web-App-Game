@@ -69,7 +69,7 @@ function animateTutorial() {
     $("#barrier-left, #barrier-right").delay(1000).animate({top : "60vh"});
     $("#tut-txt").delay(1500).fadeIn();
     $("#tut-txt").delay(3500).fadeOut();
-    $("#startFrmTutorial").delay(12000).fadeIn();
+    $("#startFrmTutorial").delay(12200).fadeIn();
 }
 
 function generateBarriers() {
