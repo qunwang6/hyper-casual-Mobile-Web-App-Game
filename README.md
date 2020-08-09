@@ -7,4 +7,6 @@ The speed of the barrier's movement towards the ball is decided at random for a 
 
 The goal of the game, is to make sure that the ball can pass through the barrier as much as it can. 
 
-[![20200810-024442-1.jpg](https://i.postimg.cc/SNjd5h6s/20200810-024442-1.jpg)](https://postimg.cc/6yJC2F1J)
+[![20200810-024442-1.jpg](https://i.postimg.cc/KcTBg8Dt/20200810-024442-1.jpg)](https://postimg.cc/dDqLbvX0)
+[![20200810-024510-1.jpg](https://i.postimg.cc/mrr7c3mr/20200810-024510-1.jpg)](https://postimg.cc/cvVv23yq)
+[![20200810-024454-1.jpg](https://i.postimg.cc/zBgbWxKq/20200810-024454-1.jpg)](https://postimg.cc/r0qw2CfH)
