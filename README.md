@@ -6,3 +6,5 @@ There are barriers which are generated with a random width, but will definitely 
 The speed of the barrier's movement towards the ball is decided at random for a specific amount of time.
 
 The goal of the game, is to make sure that the ball can pass through the barrier as much as it can. 
+
+[![20200810-024442-1.jpg](https://i.postimg.cc/SNjd5h6s/20200810-024442-1.jpg)](https://postimg.cc/6yJC2F1J)
