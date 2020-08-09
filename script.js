@@ -33,7 +33,7 @@ function lost() {
     }
     $("#lost-score").text("SCORE : " + score);
     $("#lostPage").delay(1000).slideDown();
-    $("#retry").delay(2000).fadeIn();
+    $("#retry").css("display", "flex").hide().delay(2000).fadeIn();
 }
 
 function tutorial() {
@@ -74,7 +74,7 @@ function animateTutorial() {
     $("#barrier-left, #barrier-right").delay(1000).animate({top : "60vh"});
     $("#tut-txt").delay(1500).fadeIn();
     $("#tut-txt").delay(3500).fadeOut();
-    $("#startFrmTutorial").delay(12200).fadeIn();
+    $("#startFrmTutorial").css("display", "flex").hide().delay(12200).fadeIn();
 }
 
 function generateBarriers() {

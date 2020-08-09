@@ -80,15 +80,7 @@ html, body {
 }
 
 .btn {
-	height: 15vh;
-	width: 70vw;
-	background-color: #FF6F91;
-	border-radius: 7.5vh;
-	display: block;
 	margin: 5vh auto auto auto;
-	border: #fff 5px solid;
-    -webkit-box-shadow: 0 0 15px #000;
-    box-shadow: 0 0 15px #000;
 }
 
 .btn-txt {
@@ -96,12 +88,20 @@ html, body {
 	color: #fff;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	position: relative;
-	top: 35%;
-	transform: translateY(-65%);
-/*	vertical-align: middle;
-	line-height: 9vh;*/
 	font-weight: bolder;
+}
+
+.btn-styles {
+	height: 15vh;
+	width: 70vw;
+	background-color: #FF6F91;
+	border-radius: 7.5vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	border: #fff 5px solid;
+    -webkit-box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 15px #000;
 }
 
 #tut-txt {
@@ -117,18 +117,11 @@ html, body {
 }
 
 #startFrmTutorial {
-	height: 15vh;
-	width: 70vw;
-	background-color: #FF6F91;
-	border-radius: 7.5vh;
-	display: none;
+  	display: none;
 	top: 30vh;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	border: #fff 5px solid;
-    -webkit-box-shadow: 0 0 15px #000;
-    box-shadow: 0 0 15px #000;
 }
 
 #lostPage {
@@ -159,17 +152,10 @@ html, body {
 }
 
 #retry {
-	height: 15vh;
-	width: 70vw;
-	background-color: #FF6F91;
-	border-radius: 7.5vh;
 	top: 60vh;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	border: #fff 5px solid;
-    -webkit-box-shadow: 0 0 15px #000;
-    box-shadow: 0 0 15px #000;
     display: none;
 }
 
